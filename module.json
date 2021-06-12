@@ -1,8 +1,12 @@
 {
-  "name": "bellows",
-  "title": "Bellows",
-  "description": "A fork of temportalflux's MusicAssist - a streaming helper for Foundry VTT. Every forge needs bellows!",
+  "name": "bellows-kuz",
+  "title": "Bellows, Kuz Edit",
+  "description": "A fork of a fork of a fork",
   "authors": [
+    {
+      "name": "Kuzin",
+      "url": "https://github.com/kuzin"
+    },
     {
       "name": "casualchameleon",
       "url": "https://github.com/casualchameleon"
@@ -12,9 +16,9 @@
       "url": "https://github.com/temportalflux"
     }
   ],
-  "version": "0.3.2",
-  "minimumCoreVersion": "0.6.6",
-  "compatibleCoreVersion": "0.7.5",
+  "version": "0.3.2.1",
+  "minimumCoreVersion": "0.8.0",
+  "compatibleCoreVersion": "0.8.6",
   "esmodules": [
     "./modules/main.js"
   ],
@@ -25,9 +29,9 @@
     "./templates/import-youtube-playlist.html"
   ],
   "url": "https://github.com/casualchameleon/Bellows",
-  "manifest": "https://raw.githubusercontent.com/casualchameleon/Bellows/master/module.json",
-  "download": "https://github.com/casualchameleon/Bellows/releases/download/0.3.2/bellows_0.3.2.zip",
-  "license": "https://github.com/casualchameleon/Bellows/blob/master/LICENSE",
+  "manifest": "https://raw.githubusercontent.com/kuzin/Bellows/master/module.json",
+  "download": "https://github.com/kuzin/Bellows/releases/download/0.3.2/bellows_0.3.2.zip",
+  "license": "https://github.com/kuzin/Bellows/blob/master/LICENSE",
   "socket": true,
   "debugBuildDirectory": "D:\\Documents\\FoundryVTT\\Data\\modules",
   "packageItems": [
